@@ -10,6 +10,4 @@ The goal of this challenge is to build a model that predicts the count of bike s
 The more importants parameters were the time, the month, the temperature and the weather.  
 Multiple models were tested during this challenge (Linear Regression, Gradient Boosting, SVR and Random Forest). Finally, the chosen model was Random Forest. The accuracy was measured with [Out-of-Bag Error](https://www.stat.berkeley.edu/~breiman/OOBestimation.pdf) and the OOB score was 0.85.
 
-More detailed explanations (with a couple of plots) has been written in French.
--->[French Explanations PDF](https://github.com/alexattia/Online-Challenge/blob/master/KaggleBikeSharing/Kaggle_BikeSharing_Explanations_French.pdf)
 

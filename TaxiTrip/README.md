@@ -1,6 +1,6 @@
 ## New York City Taxi Trip Duration
 
-Kaggle playground to predict the total ride duration of taxi trips in New York City. 
+Predict the total ride duration of taxi trips in New York City. 
 
 ### First part - Data exploration
 The first part is to analyze the dataframe and observe correlation between variables.

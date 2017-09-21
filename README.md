@@ -105,19 +105,81 @@ Thanks to Adam Geitgey who wrote a great [post](https://medium.com/@ageitgey/mac
 
 
 ## [Playing with Soccer data](https://github.com/ayushoriginal/DataScienceWork/tree/master/Soccer)
+### AIM: Analyze diverse soccer datasets and give useful conclusions
+
 As a soccer fan and a data passionate, I wanted to play and analyze with soccer data.  
 I don't know currently what's the aim of this project but I will parse data from diverse websites, for differents teams and differents players. 
 
+## First Part - Parsing data
 
-## [Kaggle Understanding the Amazon from Space](https://github.com/ayushoriginal/DataScienceWork/tree/master/Amazon) 
-Use satellite data to track the human footprint in the Amazon rainforest.  
-Deep Learning model (using Keras) to label satellite images.
+The first part aims to parse data from multiple websites : games, teams, players, etc.  
+To collect data about a team and dump a json file (must have created a ``./teams`` folder) :
+``python3 dumper.py team_name`` 
+
+## Second Part - Data Analysis
+
+The second part is to analyze the dataset to understand what I can do with it.
+
+![Correlation Matrix](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/psg_stats.png)
+
+![PSG vs Saint-Etienne](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/psg_ste.png)
+
+
+## [Understanding the Amazon from Space](https://github.com/ayushoriginal/DataScienceWork/tree/master/Amazon) 
+### AIM: Use satellite data to track the human footprint in the Amazon rainforest.
+ (Deep Learning model (using Keras) to label satellite images)
+
+The goal of this challenge is to label satellite image chips with atmospheric conditions and various classes of land cover/land use. Resulting algorithms will help the global community better understand where, how, and why deforestation happens all over the world - and ultimately how to respond.
+
+This problem was tackled with Deep Learning models (using TensorFlow and Keras).  
+Submissions are evaluated based on the F-beta score (F2 score), it measures acccuracy using precision and recall.
+
 
 ## [Predicting IMDB movie rating](https://github.com/ayushoriginal/DataScienceWork/tree/master/MovieRating)
+### AIM: Predict ratings of a movie before its released
 Project inspired by Chuan Sun [work](https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset)  
-How can we tell the greatness of a movie ?  
+
+Main question : How can we tell the greatness of a movie before it is released in cinema?
+
+## First Part - Parsing data
+
+The first part aims to parse data from the imdb and the numbers websites : casting information, directors, production companies, awards, genres, budget, gross, description, imdb_rating, etc.  
+To create the movie_contents.json file :  
+``python3 parser.py nb_elements``  
+
+## Second Part - Data Analysis
+
+The second part is to analyze the dataframe and observe correlation between variables. For example, are the movie awards correlated to the worlwide gross ? Does the more a movie is a liked, the more the casting is liked ? 
+See the jupyter notebook file.  
+
+![Correlation Matrix](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/corr_matrix.png)
+
+As we can see in the pictures above, the imdb score is correlated to the number of awards and the gross but not really to the production budget and the number of facebook likes of the casting.  
+Obviously, domestic and worlwide gross are highly correlated. However, the more important the production budget, the more important the gross.  
+As it is shown in the notebook, the budget is not really correlated to the number of awards.  
+What's funny is that the popularity of the third most famous actor is more important for the IMDB score than the popularity of the most famous score (Correlation 0.2 vs 0.08).  
+(Many other charts in the Jupyter notebook)
+
+## Third Part - Predict the IMDB score
+
+Machine Learning to predict the IMDB score with the meaningful variables.  
+Using a Random Forest algorithm (500 estimators). 
+![Most important features](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/features.png)
+
  
 ## [Twitter Parsing](https://github.com/ayushoriginal/DataScienceWork/tree/master/TwitterParsing)
-###AIM: Check every 2 hours, if Chris Albon has posted new flash cards. In this case, download them and send me a summary email.
+### AIM: Check every 2 hours, if user has posted new flash cards. In this case, download them and send me a summary email.
 
-I've recently discovered the Chris Albon Machine Learning flash cards and I want to download those flash cards but the official Twitter API has a limit rate of 2 weeks old tweets so I had to find a way to bypass this limitation : use Selenium and PhantomJS.
+I've recently discovered the Machine Learning flash cards and I want to download those flash cards but the official Twitter API has a limit rate of 2 weeks old tweets so I had to find a way to bypass this limitation : use Selenium and PhantomJS.
+
+## Parsing Machine Learning Flashcards
+After spending some time on Twitter, following Machine Learning, Deep Learning and Data Science "influencers". I have found some interesting stuff.  
+I decided to download some of those tweets.
+I am using Selenium to parse and download those flash cards and I create a daemon to parse and send me about new flash cards every day.  
+
+`com.alexattia.machinelearning.downloadflashcards.plist` is the plist file to copy into /Library/LaunchDaemons/  
+`run.sh` is the script to launch every day  
+`download_pics.py`is the Python script
+
+## Sending one picture a day
+Recently, I learned about this- [machine learning flashcards](machinelearningflashcards.com). There are more than 300 pictures. In order to learn those flashcards, I want to learn one a day. So, I am using a daemon to send me an email every day with an embedded flashcard.

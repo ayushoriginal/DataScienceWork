@@ -13,7 +13,27 @@ The goal of this challenge is to build a model that predicts the count of bike s
 The more importants parameters were the time, the month, the temperature and the weather.  
 Multiple models were tested during this challenge (Linear Regression, Gradient Boosting, SVR and Random Forest). Finally, the chosen model was Random Forest. The accuracy was measured with [Out-of-Bag Error](https://www.stat.berkeley.edu/~breiman/OOBestimation.pdf) and the OOB score was 0.85.
 
-![0](https://i.imgur.com/TXkwAFo.jpg)
+The results on implementing several models is shown-
+
+##### Linear Model
+
+Predicting using the attributes from testing dataset and plot them against the true values **(Figure 17)** shows that the simple linear model is limited and cannot explain most of the variation in the response variable. 
+
+![16](./plots/13_lm_predict.png)
+
+##### Generalized Linear Model
+
+Predicting using the attributes from testing dataset and plot them against the true values **(Figure 18)** shows that the generalized linear model is significantly more accurate in predicting the variations in the response variable.
+
+![17](./plots/14_glm_predict.png)
+
+##### Generalized Addictive Model
+
+Here, I only used the third generalized addictive model in predicting. The plot **(Figure 19)** shows that the spread of the response variables is similar to generalized linear model. This is understandable since the goodness of fit only improved by about 1%.
+
+![18](./plots/15_gam3_predict.png)
+
+It is important to note that none of the statistical models has predicted the trend of the bike sharing rental count. This is due to the fact that the dataset does not contain relative predictor variables that can explain the seasonality, plus, I cannot simply transform the dataset and remove the trend without proper information allowing me to.
 
 
 ## [NYC Taxi Trips](https://github.com/ayushoriginal/DataScienceWork/tree/master/TaxiTrip)

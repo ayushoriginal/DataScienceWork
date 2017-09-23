@@ -15,19 +15,19 @@ Multiple models were tested during this challenge (Linear Regression, Gradient B
 
 The results on implementing several models is shown-
 
-##### Linear Model
+### Linear Model
 
 Predicting using the attributes from testing dataset and plot them against the true values **(Figure 17)** shows that the simple linear model is limited and cannot explain most of the variation in the response variable. 
 
 ![16](./plots/13_lm_predict.png)
 
-##### Generalized Linear Model
+### Generalized Linear Model
 
 Predicting using the attributes from testing dataset and plot them against the true values **(Figure 18)** shows that the generalized linear model is significantly more accurate in predicting the variations in the response variable.
 
 ![17](./plots/14_glm_predict.png)
 
-##### Generalized Addictive Model
+### Generalized Addictive Model
 
 Here, I only used the third generalized addictive model in predicting. The plot **(Figure 19)** shows that the spread of the response variables is similar to generalized linear model. This is understandable since the goodness of fit only improved by about 1%.
 
@@ -41,7 +41,6 @@ It is important to note that none of the statistical models has predicted the tr
 
 The challenge is to build a model that predicts the total ride duration of taxi trips in New York City. The primary dataset is one released by the NYC Taxi and Limousine Commission, which includes pickup time, geo-coordinates, number of passengers, and several other variables.
 
-![1](https://i.imgur.com/cIS5qSF.png)
 ### First part - Data exploration
 The first part is to analyze the dataframe and observe correlation between variables.
 ![Distributions](https://github.com/ayushoriginal/DataScienceWork/blob/master/TaxiTrip/pic/download.png)
@@ -154,6 +153,7 @@ The goal of this challenge is to label satellite image chips with atmospheric co
 This problem was tackled with Deep Learning models (using TensorFlow and Keras).  
 Submissions are evaluated based on the F-beta score (F2 score), it measures acccuracy using precision and recall.
 
+![19](./plots/Dataflow.png)
 
 ## [Predicting IMDB movie rating](https://github.com/ayushoriginal/DataScienceWork/tree/master/MovieRating)
 ### AIM: Predict ratings of a movie before its released

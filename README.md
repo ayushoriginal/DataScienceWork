@@ -193,20 +193,3 @@ Machine Learning to predict the IMDB score with the meaningful variables.
 Using a Random Forest algorithm (500 estimators). 
 ![Most important features](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/features.png)
 
- 
-## [Twitter Parsing](https://github.com/ayushoriginal/DataScienceWork/tree/master/TwitterParsing)
-### AIM: Check every 2 hours, if user has posted new flash cards. In this case, download them and send me a summary email.
-
-I've recently discovered the Machine Learning flash cards and I want to download those flash cards but the official Twitter API has a limit rate of 2 weeks old tweets so I had to find a way to bypass this limitation : use Selenium and PhantomJS.
-
-## Parsing Machine Learning Flashcards
-After spending some time on Twitter, following Machine Learning, Deep Learning and Data Science "influencers". I have found some interesting stuff.  
-I decided to download some of those tweets.
-I am using Selenium to parse and download those flash cards and I create a daemon to parse and send me about new flash cards every day.  
-
-`com.alexattia.machinelearning.downloadflashcards.plist` is the plist file to copy into /Library/LaunchDaemons/  
-`run.sh` is the script to launch every day  
-`download_pics.py`is the Python script
-
-## Sending one picture a day
-Recently, I learned about this- [machine learning flashcards](machinelearningflashcards.com). There are more than 300 pictures. In order to learn those flashcards, I want to learn one a day. So, I am using a daemon to send me an email every day with an embedded flashcard.

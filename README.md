@@ -1,5 +1,5 @@
 # Data Science Work
-This repository contains my submissions for several challenges on Kaggle and other data science projects
+This repository contains some of my data science projects 
 
 ## [Bike Sharing Demand](https://github.com/ayushoriginal/DataScienceWork/tree/master/BikeSharingDemand)
 ### AIM: Forecast use of a city bikeshare system
@@ -154,6 +154,13 @@ This problem was tackled with Deep Learning models (using TensorFlow and Keras).
 Submissions are evaluated based on the F-beta score (F2 score), it measures acccuracy using precision and recall.
 
 ![19](./plots/Dataflow.png)
+
+## [Neural Machine Translation]
+
+Neural Machine Translation using Tensorflow using embedding with attention sequence-to-sequence model.
+
+![20](./pics/rnn.jpg)
+![21](./pics/seq2seq.JPG)
 
 ## [Predicting IMDB movie rating](https://github.com/ayushoriginal/DataScienceWork/tree/master/MovieRating)
 ### AIM: Predict ratings of a movie before its released

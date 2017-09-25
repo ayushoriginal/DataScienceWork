@@ -120,8 +120,10 @@ Finally, we need a classifier (Linear SVM or other classifier) to find the perso
 Thanks to Adam Geitgey who wrote a great [post](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78) about this, I followed his pipeline.
 
 ![Result](https://github.com/ayushoriginal/DataScienceWork/blob/master/FaceRecognition/result.png)
+ 
+Added my own pics to the dataset :P
 
-
+![ayush](./pics/webcam.jpg)
 
 ## [Playing with Soccer data](https://github.com/ayushoriginal/DataScienceWork/tree/master/Soccer)
 ### AIM: Analyze diverse soccer datasets and give useful conclusions
@@ -161,6 +163,34 @@ Neural Machine Translation using Tensorflow using embedding with attention seque
 
 ![20](./pics/rnn.jpg)
 ![21](./pics/seq2seq.JPG)
+
+#### English
+
+``Why did the naive Bayesian suddenly feel patriotic when he heard fireworks? (Question)
+He assumed independence. (Assertion)
+
+What did the gym coach say about the machine learning model? (Question)
+"You do not need training, you're overfit!" (Exclaimation)
+
+Ayush has skin. Potatoes have skin. Ayush must be a potato. (Set of assertions)
+``
+#### German Translation
+
+```
+
+Warum fühlte sich der naive Bayesianer plötzlich patriotisch, als er ein Feuerwerk hörte?
+Er hat Unabhängigkeit angenommen.
+
+Was hat der Fitnesstrainer über das maschinelle Lernmodell gesagt?
+"Du brauchst kein Training, du bist überfit!"
+
+Ayush hat Haut. Kartoffeln haben Haut. Ayush muss eine Kartoffel sein.
+
+````
+
+#### Reverse translating via Google
+
+![Translate](https://i.imgur.com/EJQPf7l.jpg)
 
 ## [Predicting IMDB movie rating](https://github.com/ayushoriginal/DataScienceWork/tree/master/MovieRating)
 ### AIM: Predict ratings of a movie before its released

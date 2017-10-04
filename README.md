@@ -86,7 +86,7 @@ Tried with my own pics added to the dataset :P
 
 ![ayush](./pics/webcam.jpg)
 
-## [Neural Machine Translation]((https://github.com/ayushoriginal/DataScienceWork/tree/master/FaceRecognition))
+## [Neural Machine Translation](https://github.com/ayushoriginal/DataScienceWork/tree/master/FaceRecognition)
 
 Neural Machine Translation using Tensorflow using embedding with attention sequence-to-sequence model.
 

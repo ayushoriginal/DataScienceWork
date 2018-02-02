@@ -7,4 +7,4 @@ The goal of this challenge is to label satellite image chips with atmospheric co
 This problem was tackled with Deep Learning models (using TensorFlow and Keras).  
 Submissions are evaluated based on the F-beta score (F2 score), it measures acccuracy using precision and recall.
 
-![19](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/Dataflow.png)
+![19](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/Dataflow.png)

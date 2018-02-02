@@ -1,7 +1,7 @@
 # Data Science Work
 This repository contains some of my projects in Exploratory Data Analysis, Statistical Inference, Regression Models and other aspects of Practical Machine Learning
 
-## [Taxi Trips](https://github.com/ayushoriginal/DataScienceWork/tree/master/TaxiTrip)
+## [Taxi Trips](https://github.com/ayushoriginal/DataScienceWork/blob/master/TaxiTrip)
 ### AIM: Predict the total ride duration of taxis
 
 The goal is to construct a model that can predict the cumulative ride duration of taxi trips in a city. I've taken the dataset released by the NYC Taxi and Limousine Commission, which includes 
@@ -33,7 +33,7 @@ Current Root Mean Squared Logarithmic error : 0.391
 Feature importance for RF & XGBoost
 ![Feature importance](https://github.com/ayushoriginal/DataScienceWork/blob/master/TaxiTrip/pic/feat_importance.png)
 
-## [Face Recognition](https://github.com/ayushoriginal/DataScienceWork/tree/master/FaceRecognition)
+## [Face Recognition](https://github.com/ayushoriginal/DataScienceWork/blob/master/FaceRecognition)
 ### AIM: Face Recognition using deep learning and Histogram of Oriented Gradients
 
 #### Methodology
@@ -82,16 +82,16 @@ Thanks to Adam Geitgey who wrote a great [post](https://medium.com/@ageitgey/mac
 
 ![Result](https://github.com/ayushoriginal/DataScienceWork/blob/master/FaceRecognition/result.png)
  
-Tried with my own pics added to the dataset :P
+Tried with my own pics added to the dataset-
 
-![ayush](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/webcam.jpg)
+![ayush](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/webcam.jpg)
 
-## [Neural Machine Translation](https://github.com/ayushoriginal/DataScienceWork/tree/master/FaceRecognition)
+## [Neural Machine Translation](https://github.com/ayushoriginal/DataScienceWork/blob/master/FaceRecognition)
 
 Neural Machine Translation using Tensorflow using embedding with attention sequence-to-sequence model.
 
-![20](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/rnn.jpg)
-![21](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/seq2seq.JPG)
+![20](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/rnn.jpg)
+![21](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/seq2seq.JPG)
 
 #### English
 
@@ -121,7 +121,7 @@ Ayush hat Haut. Kartoffeln haben Haut. Ayush muss eine Kartoffel sein.
 
 ![Translate](https://i.imgur.com/EJQPf7l.jpg)
 
-## [Bike Sharing Demand](https://github.com/ayushoriginal/DataScienceWork/tree/master/BikeSharingDemand)
+## [Bike Sharing Demand](https://github.com/ayushoriginal/DataScienceWork/blob/master/BikeSharingDemand)
 ### AIM: Forecast use of a city bikeshare system
 
 Bike sharing systems are a means of renting bicycles where the process of obtaining membership, rental, and bike return is automated via a network of kiosk locations throughout a city. Using these systems, people are able rent a bike from a one location and return it to a different place on an as-needed basis. Currently, there are over 500 bike-sharing programs around the world.
@@ -139,24 +139,24 @@ The results on implementing several models is shown-
 
 Predicting using the attributes from testing dataset and plot them against the true values shows that the simple linear model is limited and cannot explain most of the variation in the response variable. 
 
-![16](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/13_lm_predict.png)
+![16](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/13_lm_predict.png)
 
 ### Generalized Linear Model
 
 Predicting using the attributes from testing dataset and plot them against the true values shows that the generalized linear model is significantly more accurate in predicting the variations in the response variable.
 
-![17](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/14_glm_predict.png)
+![17](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/14_glm_predict.png)
 
 ### Generalized Addictive Model
 
 Here, I only used the third generalized addictive model in predicting. The plot shows that the spread of the response variables is similar to generalized linear model. This is understandable since the goodness of fit only improved by about 1%.
 
-![18](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/15_gam3_predict.png)
+![18](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/15_gam3_predict.png)
 
 It is important to note that none of the statistical models has predicted the trend of the bike sharing rental count. This is due to the fact that the dataset does not contain relative predictor variables that can explain the seasonality, plus, I cannot simply transform the dataset and remove the trend without proper information allowing me to.
 
 
-## [Analysis of Soccer data](https://github.com/ayushoriginal/DataScienceWork/tree/master/Soccer)
+## [Analysis of Soccer data](https://github.com/ayushoriginal/DataScienceWork/blob/master/Soccer)
 ### AIM: Analyze diverse soccer datasets and give useful conclusions (TODO: add a real aim)
    
 ## First Part - Parsing data
@@ -174,7 +174,7 @@ The second part is to analyze the dataset to understand what I can do with it.
 ![PSG vs Saint-Etienne](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/psg_ste.png)
 
 
-## [Understanding the Amazon from Space](https://github.com/ayushoriginal/DataScienceWork/tree/master/Amazon) 
+## [Understanding the Amazon from Space](https://github.com/ayushoriginal/DataScienceWork/blob/master/Amazon) 
 ### AIM: Use satellite data to track the human footprint in the Amazon rainforest.
  (Deep Learning model (using Keras) to label satellite images)
 
@@ -183,10 +183,10 @@ The goal of this challenge is to label satellite image chips with atmospheric co
 This problem was tackled with Deep Learning models (using TensorFlow and Keras).  
 Submissions are evaluated based on the F-beta score (F2 score), it measures acccuracy using precision and recall.
 
-![19](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/Dataflow.png)
+![19](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/Dataflow.png)
 
 
-## [Predicting IMDB movie rating](https://github.com/ayushoriginal/DataScienceWork/tree/master/MovieRating)
+## [Predicting IMDB movie rating](https://github.com/ayushoriginal/DataScienceWork/blob/master/MovieRating)
 ### AIM: Predict ratings of a movie before its released
 Project inspired by Chuan Sun [work](https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset)  
 

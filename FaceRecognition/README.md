@@ -49,4 +49,4 @@ Thanks to Adam Geitgey who wrote a great [post](https://medium.com/@ageitgey/mac
  
 Tried with my own pics added to the dataset :P
 
-![ayush](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/webcam.jpg)
+![ayush](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/webcam.jpg)

@@ -2,8 +2,8 @@
 
 Neural Machine Translation using Tensorflow using embedding with attention sequence-to-sequence model.
 
-![20](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/rnn.jpg)
-![21](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/seq2seq.JPG)
+![20](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/rnn.jpg)
+![21](https://github.com/ayushoriginal/DataScienceWork/blob/master/pics/seq2seq.JPG)
 
 #### English
 

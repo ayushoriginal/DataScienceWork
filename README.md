@@ -84,14 +84,14 @@ Thanks to Adam Geitgey who wrote a great [post](https://medium.com/@ageitgey/mac
  
 Tried with my own pics added to the dataset :P
 
-![ayush](./pics/webcam.jpg)
+![ayush](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/webcam.jpg)
 
 ## [Neural Machine Translation](https://github.com/ayushoriginal/DataScienceWork/tree/master/FaceRecognition)
 
 Neural Machine Translation using Tensorflow using embedding with attention sequence-to-sequence model.
 
-![20](./pics/rnn.jpg)
-![21](./pics/seq2seq.JPG)
+![20](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/rnn.jpg)
+![21](https://github.com/ayushoriginal/DataScienceWork/tree/master/pics/seq2seq.JPG)
 
 #### English
 
@@ -139,24 +139,24 @@ The results on implementing several models is shown-
 
 Predicting using the attributes from testing dataset and plot them against the true values shows that the simple linear model is limited and cannot explain most of the variation in the response variable. 
 
-![16](./plots/13_lm_predict.png)
+![16](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/13_lm_predict.png)
 
 ### Generalized Linear Model
 
 Predicting using the attributes from testing dataset and plot them against the true values shows that the generalized linear model is significantly more accurate in predicting the variations in the response variable.
 
-![17](./plots/14_glm_predict.png)
+![17](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/14_glm_predict.png)
 
 ### Generalized Addictive Model
 
 Here, I only used the third generalized addictive model in predicting. The plot shows that the spread of the response variables is similar to generalized linear model. This is understandable since the goodness of fit only improved by about 1%.
 
-![18](./plots/15_gam3_predict.png)
+![18](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/15_gam3_predict.png)
 
 It is important to note that none of the statistical models has predicted the trend of the bike sharing rental count. This is due to the fact that the dataset does not contain relative predictor variables that can explain the seasonality, plus, I cannot simply transform the dataset and remove the trend without proper information allowing me to.
 
 
-## [Playing with Soccer data](https://github.com/ayushoriginal/DataScienceWork/tree/master/Soccer)
+## [Analysis of Soccer data](https://github.com/ayushoriginal/DataScienceWork/tree/master/Soccer)
 ### AIM: Analyze diverse soccer datasets and give useful conclusions (TODO: add a real aim)
    
 ## First Part - Parsing data
@@ -183,7 +183,7 @@ The goal of this challenge is to label satellite image chips with atmospheric co
 This problem was tackled with Deep Learning models (using TensorFlow and Keras).  
 Submissions are evaluated based on the F-beta score (F2 score), it measures acccuracy using precision and recall.
 
-![19](./plots/Dataflow.png)
+![19](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/Dataflow.png)
 
 
 ## [Predicting IMDB movie rating](https://github.com/ayushoriginal/DataScienceWork/tree/master/MovieRating)

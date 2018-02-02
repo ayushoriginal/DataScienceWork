@@ -1,9 +1,10 @@
-# Planet: Understanding the Amazon from Space
+## [Understanding the Amazon from Space](https://github.com/ayushoriginal/DataScienceWork/tree/master/Amazon) 
+### AIM: Use satellite data to track the human footprint in the Amazon rainforest.
+ (Deep Learning model (using Keras) to label satellite images)
 
-[Link](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space)
+The goal of this challenge is to label satellite image chips with atmospheric conditions and various classes of land cover/land use. Resulting algorithms will help the global community better understand where, how, and why deforestation happens all over the world - and ultimately how to respond.
 
-Use satellite data to track the human footprint in the Amazon rainforest.  
+This problem was tackled with Deep Learning models (using TensorFlow and Keras).  
+Submissions are evaluated based on the F-beta score (F2 score), it measures acccuracy using precision and recall.
 
-
-
-
+![19](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/Dataflow.png)

@@ -16,18 +16,18 @@ The results on implementing several models is shown-
 
 Predicting using the attributes from testing dataset and plot them against the true values shows that the simple linear model is limited and cannot explain most of the variation in the response variable. 
 
-![16](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/13_lm_predict.png)
+![16](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/13_lm_predict.png)
 
 ### Generalized Linear Model
 
 Predicting using the attributes from testing dataset and plot them against the true values shows that the generalized linear model is significantly more accurate in predicting the variations in the response variable.
 
-![17](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/14_glm_predict.png)
+![17](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/14_glm_predict.png)
 
 ### Generalized Addictive Model
 
 Here, I only used the third generalized addictive model in predicting. The plot shows that the spread of the response variables is similar to generalized linear model. This is understandable since the goodness of fit only improved by about 1%.
 
-![18](https://github.com/ayushoriginal/DataScienceWork/tree/master/plots/15_gam3_predict.png)
+![18](https://github.com/ayushoriginal/DataScienceWork/blob/master/plots/15_gam3_predict.png)
 
 It is important to note that none of the statistical models has predicted the trend of the bike sharing rental count. This is due to the fact that the dataset does not contain relative predictor variables that can explain the seasonality, plus, I cannot simply transform the dataset and remove the trend without proper information allowing me to.

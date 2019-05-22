@@ -1,5 +1,5 @@
-# Data Science Work
-This repository contains some of my projects in Exploratory Data Analysis, Statistical Inference, Regression Models and other aspects of Practical Machine Learning
+# Data Science Work of Ayush Pareek [Github Repo Link](https://github.com/ayushoriginal/DataScienceWork)
+This repository contains some of my projects in Exploratory Data Analysis, Statistical Inference, Regression Models and other aspects of Practical Machine Learning. You can click on project titles to open them on github
 
 ## [Taxi Trips](https://github.com/ayushoriginal/DataScienceWork/blob/master/TaxiTrip)
 ### AIM: Predict the total ride duration of taxis
